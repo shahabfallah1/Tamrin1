@@ -1524,3 +1524,37 @@ footer {
                 padding: 30px 15px;
             }
         }
+
+
+
+
+
+
+
+
+
+
+/* edit */
+
+/* واکنشگرایی برای navbar و favorite section */
+@media (max-width: 768px) {
+  /* نوبار به حالت ستونی */
+  .navbar ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  .navbar {
+    padding: 10px 0;
+  }
+  /* کارت‌های favorite به صورت عمودی */
+  .favorite__container, .favorite ul {
+    flex-direction: column !important;
+    gap: 16px;
+    align-items: stretch;
+  }
+  .favorite li {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
