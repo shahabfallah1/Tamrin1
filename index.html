@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TAMRIN1</title>
+    <link href="https://cdn.fontcdn.ir/Font/Persian/Doran/Doran.css" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+  <div class="time-date" id="timeDate">🕒</div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#favorites">Favorites</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#footer">Footer</a></li>
+    <li><a href="./about.html">About Me</a></li>
+  </ul>
+</nav>
+
+
+    <header>
+      
+      <img src="./img/logo.png" alt="SHAHAB LOGO" width="500 px" />
+      <h2>
+        hello <br />
+        i am SHAHAB
+      </h2>
+      <p>this is my website</p>
+      <p>
+        I am interested in programming and am currently studying and want to
+        become a front-end developer in the near future.
+       <br> and F1 lover 
+      </p>
+    </header>
+
+    <section id="favorites">
+      <h2>Favorites</h2>
+      
+      <ul>
+  <li class="dropdown">
+  <span>formula1 ▼</span>
+  <ul class="dropdown-content">
+    <li><a href="./circuits.html">پـیـســـتـ هــا  </a></li>
+    <li><a href="./drivers.html">پـروفـایـــل راننـــده هـا </a></li>
+    <li><a href="./standings.html">رده بــــــــنــــــدی  </a></li>
+    <li><a href="./team.html">رده بنــدی تیــم های ســازنده  </a></li>
+  </ul>
+  <img src="./img/f1.avif" alt="f1car" width="150px" />
+</li>
+</a>
+
+        <li class="dropdown">
+  <span>Watch the movie ▼</span>
+  <ul class="dropdown-content">
+    <li><a href="./comedimovie.html"> کـــمـدی  </a></li>
+    <li><a href="./actionmovie.html">اکـــــشــن </a></li>
+    <li><a href="./animation.html">انــیــمــیــشـن </a></li>
+    
+  </ul> 
+            <img src="./img/movie.webp" alt="watch" width="150px" />
+          </li>
+        </a>
+
+        <li class="dropdown">
+  <span>tech programing ▼</span>
+  <ul class="dropdown-content">
+    <li><a href="./hosh.html"> اخبـار هــوش مـصـنوعـــی  </a></li>
+    <li><a href="./starlink.html">اســتارلینکـــ </a></li>
+    <li><a href="./programming.html">بـرنامــه نویـســی </a></li>
+    
+  </ul>
+            <img src="./img/tech.jpg" alt="teching" width="150px" />
+          </li>
+        </a>
+
+        <li class="dropdown">
+  <span>driving ▼</span>
+  <ul class="dropdown-content">
+    <li><a href="#">  جــاده چـــالـوس  </a></li>
+    <li><a href="#">جــاده هــــراز  </a></li>
+    <li><a href="#"> فیروزکـوه پل ورسکـــ </a></li>
+    </ul>
+            <img src="./img/drive.webp" alt="drive" width="150px" />
+          </li>
+        </a>
+      </ul>
+    </section>
+
+   <section id="video">
+  <h2>My Favorite Videos</h2>
+  <div class="video__container">
+    <div class="video__item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/W6NZfCO5SIk?si=vhq53e7xD_JBYmYK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    </div>
+
+    <div class="video__item">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/upDLs1sn7g4?si=LxFF2vbrgvRy4jnJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"
+        
+    </div>
+  </div>
+</section>
+
+
+    <section id="contact">
+  <div class="form__container">
+    <h2>Contact Form</h2>
+    <form action="https://formspree.io/f/xldnggyw" method="POST">
+      <div class="form__group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form__group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form__group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button type="submit" class="submit__btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+    <div class="card__container">
+  <div class="card show-on-scroll">
+    <img src="./img/Front-end-Development.jpeg" alt="shahab" class="card__avatar" />
+    <h3>Shahab Fallah</h3>
+    <p>Mr. Fallah is a programming expert and front-end developer.</p>
+  </div>
+
+  <div class="card show-on-scroll">
+    <img src="./img/backend-development.webp" alt="amir" class="card__avatar" />
+    <h3>Amir Chekan</h3>
+    <p>Mr. Chekan is a backend developer and business graduate.</p>
+  </div>
+
+  <div class="card show-on-scroll">
+    <img src="./img/ux-ui-00.png" alt="shima" class="card__avatar" />
+    <h3>Shima Fallah</h3>
+    <p>Ms. Fallah is a UI/UX designer and holds a degree in graphics.</p>
+  </div>
+</div>
+
+
+        <section id="map">
+  <h2>post bank kenesi</h2>
+  <div class="map__container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1908.632016488714!2d52.36672677771166!3d36.43522905485679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8f97d0e630e553%3A0xd6d305ac2c6d17e2!2sPost%20Bank!5e0!3m2!1sen!2sus!4v1749211383891!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+  </div>
+</section>
+
+    <footer id="footer" class="footer__tamrin">
+      <p class="about">About us: This site is written for practice.</p>
+
+      <div class="footer__link">
+        <a href="#">home</a>
+        <a href="#">Contact us</a>
+        <a href="#">Frequently Asked Questions</a>
+
+        <div class="sotial__media">
+          <div class="social__media">
+            <a href="https://www.instagram.com/shahab_fallahh/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/shahab_fallahh"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://t.me/sh_fallahh"><i class="fab fa-telegram"></i></a>
+            <a href="https://wa.me/989351217711"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+<a class="xoxo_fn_totop" href="#">
+  <svg class="progress_circle" width="60" height="60">
+    <circle cx="30" cy="30" r="26" stroke="#444" stroke-width="4" fill="none"></circle>
+    <circle class="progress" cx="30" cy="30" r="26" stroke="#00c896" stroke-width="4" fill="none" stroke-linecap="round"></circle>
+  </svg>
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+
+
+<script src="./script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
